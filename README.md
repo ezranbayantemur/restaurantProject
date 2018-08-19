@@ -1,5 +1,5 @@
 # restaurantProject
-
+(Türkçe için)[https://github.com/ezranbayantemur/restaurantProject/blob/master/README.tr.md]
 ## Info
 This project just for an practice example of **React Native**
 
