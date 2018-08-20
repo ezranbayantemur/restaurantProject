@@ -9,6 +9,8 @@ A prototype of a restaurant menu project. Customer can see all foods and categor
   <img src="https://github.com/ezranbayantemur/restaurantProject/blob/master/gifs/en.gif" width="360" height="574" />
 </p>
 
+*My test device was Samsung Galaxy Tab A SM-T287*
+
 ## Used Packages
 - `react-native-router-flux` for routing on project. All app has three views(screen) `src/pages`.
 - `react-native-swiper` for showcase.
