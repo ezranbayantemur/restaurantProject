@@ -5,6 +5,12 @@ Bu proje bir **React Native** çalışma örneğidir.
 
 Restoran menü projesinin bir prototipi diyebiliriz. Müşteri uygulama üzerinden restorandaki bütün kategorileri, yiyecekleri, yiyecek ücretlerini, yiyecek detaylarını (allerjen içeriklerin olup olmadığını kontrol etmek için) inceleyebilir. Kullanıcı müşterilerine göstermek için birden fazla kategori ve yiyecek ekleyebilir. Yiyecek bilgisi için kullanıcı (Yönetici Panelinden) yiyecek detayı, yiyecek fotoğrafı, yiyecek ücreti ekleyebilir. Bununla birlikte kullanıcı vitrinde göstermek için yiyecek seçebilir.
 
+<p align="center">
+  <img src="https://github.com/ezranbayantemur/restaurantProject/blob/master/gifs/tr.gif" width="360" height="574" />
+</p>
+
+*Test cihazı Samsung Galaxy Tab A SM-T287*
+
 ## Kullanılan Paketler
 - `react-native-router-flux` Bütün uygulama toplamda üç view (ekran)'dan oluşuyor. `src/pages`.
 - `react-native-swiper` vitrin için.
