@@ -4,6 +4,7 @@ import { Actions } from 'react-native-router-flux';
 import Swiper from 'react-native-swiper';
 import fire from '../dataprovider/fireconfig';
 import CategoryCard from '../component/cards/CategoryCard';
+import SwiperCard from '../component/cards/SwiperCard'
 import 'firebase/firestore'
 
 const DB = fire.firestore();
@@ -59,7 +60,7 @@ class CategoryPage extends Component {
   
   renderSwiper(){ 
     return this.state.swiperList.map((categoryData, Id) =>
-    <Image key={Id} style={styles.imageStyle} source={categoryData.foodPhoto} />
+    <SwiperCard key={Id} foodphoto={categoryData.foodPhoto} foodname={categoryData.yemekAdi}/>
   )}
   
   renderCategory(){
