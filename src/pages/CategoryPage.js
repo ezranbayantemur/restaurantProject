@@ -80,7 +80,7 @@ class CategoryPage extends Component {
       <View style={{ backgroundColor: '#03a9f4', flex: 1}}>
           {this.loadDATA()} 
        <ScrollView>
-        <Swiper key={this.state.swiperList.length} style={styles.swipperStyle} showsButtons={false} autoplay={true}>
+        <Swiper key={this.state.swiperList.length} style={styles.swipperStyle} showsButtons={false} autoplay={true} >
           {this.renderSwiper()}
         </Swiper>
           {this.renderCategory()} 
