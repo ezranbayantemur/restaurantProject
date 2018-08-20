@@ -5,6 +5,10 @@ This project just for an practice example of **React Native**
 
 A prototype of a restaurant menu project. Customer can see all foods and categories, foods price, foods description (like checking ingredients for allergens) from this app. Owner can add multiple categories and foods for showing his customers on tablet. For food info, owner can add (from Admin Panel) food description, food photo, food price. Along with that owner can show any food on showcase.
 
+<p align="center">
+  <img src="https://github.com/ezranbayantemur/restaurantProject/blob/master/gifs/en.gif" width="360" height="574" />
+</p>
+
 ## Used Packages
 - `react-native-router-flux` for routing on project. All app has three views(screen) `src/pages`.
 - `react-native-swiper` for showcase.
