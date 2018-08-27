@@ -5,6 +5,7 @@ import Swiper from 'react-native-swiper';
 import fire from '../dataprovider/fireconfig';
 import CategoryCard from '../component/cards/CategoryCard';
 import SwiperCard from '../component/cards/SwiperCard'
+import styles from '../style'
 import 'firebase/firestore'
 
 const DB = fire.firestore();
@@ -89,38 +90,6 @@ class CategoryPage extends Component {
       </View>
     );
   }
-}
-
-export const { width, height } = Dimensions.get('window');
-
-const styles = {
-  swipperStyle : {
-    width, 
-    height: height * 0.4 
-  },
-  imageStyle : {
-    flex: 1,
-    width, 
-    height: height * 0.4,
-    justifyContent: 'space-between',
-    alignItems: 'flex-end',
-    flexDirection: 'row'
-  },
-  loadningView : { 
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  activityStyle : {
-    alignSelf: 'center',
-    marginTop: 20 
-  },
-  loadingText : { 
-    marginTop: 25 ,
-    color: 'white',
-    fontSize: 50,
-    fontFamily: 'sans-serif-thin'
-   }
 }
 
 export {CategoryPage};

@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text, ImageBackground, Dimensions } from 'react-native'
+import { View, Text, ImageBackground } from 'react-native'
+import styles from '../../style'
 
 const SwiperCard = (props) => {
     return(
@@ -9,19 +10,6 @@ const SwiperCard = (props) => {
             </ImageBackground>
         </View>
     )
-}
-
-export const { width, height } = Dimensions.get('window');
-
-const styles = {
-   imageStyle : {
-      flex: 1,
-      width, 
-      height: height * 0.4,
-      justifyContent: 'space-between',
-      alignItems: 'flex-end',
-      flexDirection: 'row'
-    }
 }
 
 export default SwiperCard

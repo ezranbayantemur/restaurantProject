@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, ScrollView, Text, Image, Dimensions } from 'react-native'
 import DetailHeader from '../component/headers/DetailHeader'
+import styles from '../style'
 
 const DetailPage = (props) => {
     return(
@@ -14,23 +15,6 @@ const DetailPage = (props) => {
             </ScrollView>
         </View>
     );
-}
-
-const styles = {
-    swipperStyle : {
-        width : Dimensions.get('window').width,
-        height: Dimensions.get('window').height * 0.4 
-    },
-    textStyle: {
-        fontFamily: 'sans-serif-thin',
-        fontSize : 25,
-        fontWeight: 'bold',
-        color: 'white',
-    },
-    header: {
-        alignItems: 'flex-start',
-        margin: 25,
-    }
 }
 
 export {DetailPage};

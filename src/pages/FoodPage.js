@@ -4,6 +4,7 @@ import { Actions  } from 'react-native-router-flux'
 import fire from '../dataprovider/fireconfig';
 import FoodCard from '../component/cards/FoodCard'
 import SubHeader from '../component/headers/SubHeader'
+import styles from '../style'
 import 'firebase/firestore'
 
 const ref = fire.firestore().settings({ timestampsInSnapshots: true })
@@ -74,27 +75,4 @@ class FoodPage extends Component {
         )}
     }
 
-const styles = {
-    foodStyle : {
-        flex : 1,
-        flexWrap : 'wrap',
-        flexDirection : 'row',
-        paddingTop : 10
-    },
-    loadningView : { 
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    activityStyle : {
-        alignSelf: 'center',
-        marginTop: 20 
-    },
-    loadingText : { 
-        marginTop: 25 ,
-        color: 'white',
-        fontSize: 50,
-        fontFamily: 'sans-serif-thin'
-    }
-}
 export {FoodPage};
